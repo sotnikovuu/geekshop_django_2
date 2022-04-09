@@ -96,4 +96,8 @@ def contact(request):
     visit_date = timezone.now()
     locations = Contact.objects.all()
     content = {"title": title, "visit_date": visit_date, "locations": locations}
+<<<<<<< HEAD
     return render(request, "mainapp/contact.html", content)
+=======
+    return render(request, "mainapp/contact.html", content)
+>>>>>>> f671007dcd137815c7eb1f2c4a76de74c2e8accb

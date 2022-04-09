@@ -181,4 +181,8 @@ def product_delete(request, pk):
         return HttpResponseRedirect(reverse("admin:products", args=[product.category.pk]))
 
     content = {"title": title, "product_to_delete": product, "media_url": settings.MEDIA_URL}
+<<<<<<< HEAD
     return render(request, "adminapp/product_delete.html", content)
+=======
+    return render(request, "adminapp/product_delete.html", content)
+>>>>>>> f671007dcd137815c7eb1f2c4a76de74c2e8accb
