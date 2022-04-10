@@ -32,8 +32,4 @@ class ProductEditForm(forms.ModelForm):
 
     class Meta:
         model = Product
-<<<<<<< HEAD
         fields = "__all__"
-=======
-        fields = "__all__"
->>>>>>> f671007dcd137815c7eb1f2c4a76de74c2e8accb
