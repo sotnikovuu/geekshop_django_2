@@ -195,7 +195,7 @@ SOCIAL_AUTH_GITHUB_KEY = github_auth["client_id"]
 SOCIAL_AUTH_GITHUB_SECRET = github_auth["client_secret"]
 
 ## Django Debug Toolbar --->
-#if DEBUG:
+# if DEBUG:
 #    INSTALLED_APPS.extend(
 #        [
 #            "debug_toolbar",
@@ -205,7 +205,7 @@ SOCIAL_AUTH_GITHUB_SECRET = github_auth["client_secret"]
 #    )
 #
 #
-#if DEBUG:
+# if DEBUG:
 #    MIDDLEWARE.extend(
 #        [
 #            "debug_toolbar.middleware.DebugToolbarMiddleware",
@@ -213,7 +213,7 @@ SOCIAL_AUTH_GITHUB_SECRET = github_auth["client_secret"]
 #    )
 #
 ## Debgu tool bar settings
-#if DEBUG:
+# if DEBUG:
 #
 #    def show_toolbar(request):
 #        return True
